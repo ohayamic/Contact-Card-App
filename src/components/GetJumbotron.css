@@ -1,0 +1,11 @@
+.Jumbotron {
+  margin-top: 0px;
+
+  height: 500px;
+  background-image: url("/assets/photo1.jpeg");
+  color: white;
+}
+.jumboMargin {
+  margin-top: 100px;
+  margin-left: 10px;
+}
