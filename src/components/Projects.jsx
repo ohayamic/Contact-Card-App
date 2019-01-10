@@ -6,7 +6,7 @@ class Projects extends Component {
   render() {
     return (
       <Grid>
-        <Row className="show-grid">
+        <Row className="show-grid text-center">
           <Col xs={12} sm={4} md={4}>
             <div style={{ marginBottom: 50 }}>
               <Image
