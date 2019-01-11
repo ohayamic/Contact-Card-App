@@ -8,7 +8,7 @@ class GetNavBar extends Component {
       <Navbar inverse collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="#brand">OhayaMic</a>
+            <a href="/home">OhayaMic</a>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
@@ -20,10 +20,12 @@ class GetNavBar extends Component {
             <NavItem eventKey={2} href="/about">
               About
             </NavItem>
+            <NavItem eventKey={2} href="/blog">
+              BLog
+            </NavItem>
             <NavDropdown eventKey={3} title="Others" id="basic-nav-dropdown">
-              <MenuItem eventKey={3.1}>Blog</MenuItem>
-              <MenuItem eventKey={3.2}>Profile</MenuItem>
-              <MenuItem eventKey={3.3}>News</MenuItem>
+              <MenuItem eventKey={3.1}>Profile</MenuItem>
+              <MenuItem eventKey={3.2}>News</MenuItem>
               <MenuItem divider />
               <MenuItem eventKey={3.3}>Contact</MenuItem>
             </NavDropdown>

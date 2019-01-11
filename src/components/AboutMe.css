@@ -3,10 +3,15 @@
   color: #10828c;
 }
 
+.mr-5 {
+  margin-left: 50px;
+}
+
 .col-border {
   padding: 2em;
   border-left: 4px solid #10828c;
 }
+
 .profile-text {
   margin-top: 20px;
   color: #10828c;
