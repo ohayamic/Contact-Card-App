@@ -5,6 +5,7 @@ class Movies extends React.Component {
   render() {
     return (
       <table>
+        
         <tbody>
           <tr>
             <td className="td" style={{ padding: 10, margin: 10 }}>
