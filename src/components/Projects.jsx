@@ -40,7 +40,7 @@ class Projects extends Component {
                 On loading or refreshing this page, you are shown a single
                 sentence that is a direct quote from a Bob Ross episode. Enter
                 the number of paragraphs of lipsum you want in the first
-                textbox, and the number of sentences
+                textbox, and the number of sentences should be whole
               </p>
 
               <Button bsStyle="primary" bsSize="large">
