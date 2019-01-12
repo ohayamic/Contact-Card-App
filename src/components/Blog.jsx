@@ -75,7 +75,7 @@ class Blog extends Component {
               <ContactCard
                 imgLink="/assets/fierceCat.jpeg"
                 name="Mr. Fierce Badmos"
-                phone="+2348066906352"
+                phone="+234806690635"
                 email="ReactWorld@gmail.com"
               />
             </Col>
