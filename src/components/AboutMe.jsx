@@ -23,7 +23,7 @@ class AboutMe extends Component {
                 textbox, and the number of sentences per paragraph in the
                 second. Note that the number of sentences is not guaranteed to
                 be exact, as some quotes are multiple sentences in themselves
-                and the generator treats them as a single sentence.
+                and the generator treats them as a single sentence.This is all
               </p>
               <Link to="/profile">
                 <Button bsStyle="primary" bsSize="large">
