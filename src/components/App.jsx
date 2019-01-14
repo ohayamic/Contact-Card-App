@@ -5,6 +5,8 @@ import React from "react";
 import Home from "./Home";
 import AboutMe from "./AboutMe";
 import Blog from "./Blog";
+import Profile from "./Profile";
+import News from "./News";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Route exact path="/home" component={Home} />
         <Route path="/about" component={AboutMe} />
         <Route path="/blog" component={Blog} />
+        <Route path="/profile" component={Profile} />
+        <Route path="/news" component={News} />
       </div>
     </Router>
   );

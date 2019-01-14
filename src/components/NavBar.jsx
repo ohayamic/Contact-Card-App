@@ -24,8 +24,12 @@ class GetNavBar extends Component {
               BLog
             </NavItem>
             <NavDropdown eventKey={3} title="Others" id="basic-nav-dropdown">
-              <MenuItem eventKey={3.1}>Profile</MenuItem>
-              <MenuItem eventKey={3.2}>News</MenuItem>
+              <MenuItem eventKey={3.1}>
+                <a href="/profile">Profile</a>
+              </MenuItem>
+              <MenuItem eventKey={3.2}>
+                <a href="/news">News</a>
+              </MenuItem>
               <MenuItem divider />
               <MenuItem eventKey={3.3}>Contact</MenuItem>
             </NavDropdown>

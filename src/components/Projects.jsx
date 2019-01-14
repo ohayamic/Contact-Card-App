@@ -6,13 +6,16 @@ class Projects extends Component {
   render() {
     return (
       <Grid>
+        <h1 className="text-center " style={{ color: "#10828c", margin: 30 }}>
+          Project
+        </h1>
         <Row className="show-grid text-center">
           <Col xs={12} sm={4} md={4}>
             <div style={{ marginBottom: 50 }}>
               <Image
                 width={300}
                 height={300}
-                src="/assets/photo2.jpeg"
+                src="/assets/ReactBoot.jpeg"
                 circle
               />
               <h3>React Project</h3>
@@ -23,18 +26,13 @@ class Projects extends Component {
                 textbox, and the number of sentences
               </p>
               <Button bsStyle="primary" bsSize="large">
-                Button
+                Enter Project
               </Button>
             </div>
           </Col>
           <Col xs={12} sm={4} md={4}>
             <div style={{ marginBottom: 50 }}>
-              <Image
-                width={300}
-                height={300}
-                src="/assets/photo3.jpeg"
-                circle
-              />
+              <Image width={300} height={300} src="/assets/Flask.png" circle />
               <h3>Flask Project</h3>
               <p>
                 On loading or refreshing this page, you are shown a single
@@ -44,7 +42,7 @@ class Projects extends Component {
               </p>
 
               <Button bsStyle="primary" bsSize="large">
-                Button
+                Enter Project
               </Button>
             </div>
           </Col>
@@ -53,7 +51,7 @@ class Projects extends Component {
               <Image
                 width={300}
                 height={300}
-                src="/assets/photo1.jpeg"
+                src="/assets/bootstrap.jpg"
                 circle
               />
               <h3>Bootstrap Project</h3>
@@ -65,7 +63,7 @@ class Projects extends Component {
               </p>
 
               <Button bsStyle="primary" bsSize="large">
-                Button
+                Enter Project
               </Button>
             </div>
           </Col>

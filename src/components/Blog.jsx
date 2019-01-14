@@ -18,7 +18,7 @@ class Blog extends Component {
   }
 
   componentDidMount(searchTerm) {
-    var url = "";
+    // var url = "#";
     fetch(
       "https://api.themoviedb.org/3/search/movie?api_key=a67d0ff54b82c33be57851e07b2512a3&query=" +
         "marvel"
