@@ -5,30 +5,24 @@ import Movies from "./Movies.jsx";
 
 //import { Link } from "react-router-dom";
 class Blog extends Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {
       getresults: []
     };
   }
 
-  handleChange(event) {
-    const getValue = event.target.value;
-    return getValue;
-  }
-
-  componentDidMount(searchTerm) {
-    // var url = "#";
+  handleChange = e =>
     fetch(
-      "https://api.themoviedb.org/3/search/movie?api_key=a67d0ff54b82c33be57851e07b2512a3&query=" +
-        "marvel"
+      `https://api.themoviedb.org/3/search/movie?api_key=a67d0ff54b82c33be57851e07b2512a3&query=${
+        e.target.value
+      }`
     )
       .then(responds => responds.json())
       .then(data => {
         this.setState({ getresults: data.results });
-      })
-      .catch(error => console.log("Request failed", error));
-  }
+      });
+
   render() {
     const movieComponents = this.state.getresults.map(movies => {
       movies.poster_path =
