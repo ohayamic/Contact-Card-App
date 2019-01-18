@@ -17,17 +17,17 @@ class AboutMe extends Component {
             <Col xs={12} md={8} className="col-border">
               <h3 className="profile-text">Ohaya Michael</h3>
               <p>
-                On loading or refreshing this page, you are shown a single
-                sentence that is a direct quote from a Bob Ross episode. Enter
-                the number of paragraphs of lipsum you want in the first
-                textbox, and the number of sentences per paragraph in the
-                second. Note that the number of sentences is not guaranteed to
-                be exact, as some quotes are multiple sentences in themselves
-                and the generator treats them as a single sentence.This is all
+                Hi I'm Michael a Full-Stack Software Engineer. My passion is in
+                building Frameworks using Flask, HTML, CSS, JQuery, React,
+                React-bootstrap where student (mostly African International in
+                Thüringen State) can colaborate and share ideas in other to
+                fight problems facing their motherland and the society they are
+                in. I also love building website and web app that enhances
+                communication between consumers and suppliers
               </p>
               <Link to="/profile">
                 <Button bsStyle="primary" bsSize="large">
-                  Visit Profile
+                  View Resume
                 </Button>
               </Link>
             </Col>
