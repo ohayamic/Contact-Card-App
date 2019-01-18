@@ -12,12 +12,12 @@ class GetJumbotron extends Component {
         <Jumbotron className="Jumbotron ">
           <Grid>
             <Row className="jumboMargin">
-              <Col xs={12} smOffset={4} />
+              <Col xs={12} sm={8} smOffset={4} />
 
               <h1>Welcome</h1>
               <p>
-                This is a simple hero unit, a simple jumbotron-style component
-                for calling extra attention to featured content or information.
+                This website demonstrates the use of React, React-bootstrap, API
+                integration, State, Props, Component, CSS and HTML.
               </p>
 
               <Link to="/about">
