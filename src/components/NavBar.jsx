@@ -8,7 +8,7 @@ class GetNavBar extends Component {
       <Navbar inverse collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="/home" style={{ marginBottom: 5 }}>
+            <a href="/" style={{ marginBottom: 5 }}>
               <img
                 src="/assets/logo.png"
                 alt="logo"
@@ -20,7 +20,7 @@ class GetNavBar extends Component {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight>
-            <NavItem eventKey={1} href="/home">
+            <NavItem eventKey={1} href="/">
               Home
             </NavItem>
             <NavItem eventKey={2} href="/about">

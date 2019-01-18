@@ -13,7 +13,7 @@ function App() {
     <Router>
       <div>
         <GetNavBar />
-        <Route exact path="/home" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route path="/about" component={AboutMe} />
         <Route path="/blog" component={Blog} />
         <Route path="/profile" component={Profile} />

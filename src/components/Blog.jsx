@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ContactCard from "./ContactCard";
 import { Row, Col, Grid } from "react-bootstrap";
-import Movies from "./Movies.jsx";
+import Movies from "./Movies";
 
 //import { Link } from "react-router-dom";
 class Blog extends Component {
@@ -19,9 +19,7 @@ class Blog extends Component {
       }`
     )
       .then(responds => responds.json())
-      .then(data => {
-        this.setState({ getresults: data.results });
-      });
+      .then(data => this.setState({ getresults: data.results }));
 
   render() {
     const movieComponents = this.state.getresults.map(movies => {
